@@ -64,11 +64,10 @@ decimal_number = 45
 
 # 將十進制數字轉換為二進制
 binary_number = stack.decimal_to_base(decimal_number, 2)
-print(f"Binary: {binary_number}")  # 輸出: Binary: 101101
-
+print(f"Binary: {binary_number}")  
 # 將十進制數字轉換為八進制
 octal_number = stack.decimal_to_base(decimal_number, 8)
-print(f"Octal: {octal_number}")  # 輸出: Octal: 55
+print(f"Octal: {octal_number}")  
 
 
 ```
@@ -81,15 +80,20 @@ print(f"Binary: {binary_number}")  # 輸出: Binary: 101101
 ```
 101101
 ```
+![image](Answer2.png)
+
 # 將十進制數字轉換為八進制：
 ```
 octal_number = stack.decimal_to_base(decimal_number, 8)
-print(f"Octal: {octal_number}")  # 輸出: Octal: 55
+print(f"Octal: {octal_number}")  
 ```
 輸出結果
 ```
 55
 ```
+![image](https://github.com/user-attachments/assets/e5a6b9bd-14f9-4733-b634-71069fe89899)
+
+
 通過這些範例，我們可以看到Python提供了靈活且易於使用的進制轉換工具，使得在不同進制系統之間進行轉換變得非常簡單。
 
 
