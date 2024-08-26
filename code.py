@@ -1,3 +1,4 @@
+#範例一
 class Stack:
     def __init__(self):
         self.stack = []
@@ -47,10 +48,10 @@ stack = Stack()
 # 設定十進制數字
 decimal_number = 45
 
-# 將十進制數字轉換為二進制
+#範例二
 binary_number = stack.decimal_to_base(decimal_number, 2)
 print(f"Binary: {binary_number}")  # 輸出: Binary: 101101
 
-# 將十進制數字轉換為八進制
+#範例三
 octal_number = stack.decimal_to_base(decimal_number, 8)
 print(f"Octal: {octal_number}")  # 輸出: Octal: 55
